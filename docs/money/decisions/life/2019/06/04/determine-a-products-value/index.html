@@ -5,9 +5,9 @@
   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
   <meta name='viewport' content='width=device-width, initial-scale=1'>
 
-  <title>Futurecast</title>
-  <meta name='description' content="">
-  <link rel='canonical' href="http://localhost:5000/futurecast.html">
+  <title>Determining a Product's Value</title>
+  <meta name='description' content="I’m on a journey to crack the nut of personal finance. Personal finance isn’t just for aspiring millionaires, it’s for anyone who wants to build their life o...">
+  <link rel='canonical' href="http://localhost:5000/money/decisions/life/2019/06/04/determine-a-products-value/">
   <link rel='alternate' type='application/rss+xml' title='Jacob Sansbury' href="http://localhost:5000/feed.xml">
 
   <style>
@@ -97,45 +97,108 @@ gtag('config', 'UA-141552350-1');</script>
 
 </header>
 
-      <div class="o-wrapper">
-	<div class="o-grid">
-		<div class="o-grid__col">
-			<article class="c-post">
-				<h1 class="c-post__title u-text-center" style="margin-bottom: 0;">
-					Futurecast
-				</h1>
-				<p class="u-text-center" style="margin-bottom: 16px;">
-					Smart money management
-				</p>
+      
 
-				<div class="c-content">
-					
 
-					<p><img src="/images/pages/futurecast-dashboard.png" alt="Futurecast Dashboard" /></p>
 
-<p>Most of the current personal finance applications on the market are focused on how budgeting will impact you today. Futurecast explores financial choices over the long-term. It’s all about long-term budgeting.</p>
+<div class='o-wrapper'>
 
-<p>Recording your repeating bills is the first step towards getting a glimpse of your future.</p>
+  <div class='o-grid'>
+    <div class='o-grid__col'>
+      <article class='c-post' itemscope itemtype='http://schema.org/BlogPosting'>
 
-<p><img src="/images/pages/futurecast-transactions.png" alt="Futurecast Transactions" /></p>
+        <h1 class='c-post__title u-text-center'>Determining a Product's Value</h1>
 
-<p>After you’ve recorded your bills, it time to see what the data says about your spending.</p>
+        <time class='c-post__date' datetime='2019-06-04T00:00:00-04:00' itemprop='datePublished'>04 Jun 2019</time>
 
-<p>Futurecast isn’t done here’s the road map for the next year:</p>
+        <div class='c-content' itemprop='articleBody'>
+          
+
+          <p>I’m on a journey to crack the nut of personal finance. Personal finance isn’t just for aspiring millionaires, it’s for anyone who wants to build their life on a solid foundation. It’s amazing to realize how understanding your money will give you the freedom you’ve always wanted.</p>
+
+<p>Over the course of my journey, I’ve stubbed my toe many times. I’ve made tons of mistakes and reflected on my mishaps time and time again. Through my toils, I’ve come to understand that personal finance requires you hear your logic over your emotions.</p>
+
+<p>In order to manage your money well you must make the best decision you can. A good decision is one that maximizes gains and minimizes losses for the individual and society as a whole. Its rare to find a human that consistently deflects their emotions and makes logical decisions. After realizing this shortcoming it made more sense to reframe the problem. How can I make decisions quickly and logically regardless of my emotions.</p>
+
+<p>After framing the problem in this way, it was just a few days before I concluded this was a task destined to run on a computer. Computers have a significant advantage over humans, they are not affected by their emotions. This makes them much better at making logical decisions. Given a computer with algorithms that reflected my logic it could more effectively make decisions that achieve my goals. The next challenge was building algorithms that reflected my logic.</p>
+
+<p>First I need to record my decision making criteria for various situations. In order to workout my process I recorded my logic for choosing between items that solve the same problem. I decided that the basic building blocks of my logic were <code class="highlighter-rouge">cost</code>, <code class="highlighter-rouge">durability</code> and <code class="highlighter-rouge">effectiveness</code>.</p>
 
 <ul>
-  <li>Financial health score</li>
-  <li>Budget optimizer</li>
-  <li>Narrow-AI based Q&amp;A</li>
-  <li>Insight generation based on your data</li>
+  <li><code class="highlighter-rouge">cost</code> — the dollar value of the item</li>
+  <li><code class="highlighter-rouge">durability</code> — the number of months the item will solve the problem</li>
+  <li><code class="highlighter-rouge">effectiveness</code> — how well the product solves the problem from 0-2</li>
 </ul>
 
-				</div>
-			</article>
-		</div>
-	</div>
-</div>
+<p>After I had defined the basic building blocks I began to search for the relationship between them. I had the inputs for my algorithms and I knew the desired output. In order to determine the formula, I recorded my thinking about the value of an item.</p>
 
+<ul>
+  <li>Sloppy or ineffective solutions are less valuable</li>
+  <li>A more durable item is more valuable</li>
+  <li>Increasing effectiveness quickly diminishes in value</li>
+</ul>
+
+<p>Ultimately, I built the following formula to compute a score based on my logic.</p>
+
+<p><img src="/images/posts/pf-cost-score.png" alt="Score Formula" class="post-image" /></p>
+
+<p>In practice, this formula can be applied to rank multiple items. Given a set of choices the highest score is most valuable. Take for example, trying to pick between different pairs of shoes:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Cost</th>
+      <th>Durability</th>
+      <th>Effectiveness</th>
+      <th>Score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Nike Tanjun</td>
+      <td>49</td>
+      <td>10</td>
+      <td>0.5</td>
+      <td>30.61</td>
+    </tr>
+    <tr>
+      <td>Addias Ultraboost</td>
+      <td>106</td>
+      <td>10</td>
+      <td>0.85</td>
+      <td>17.45</td>
+    </tr>
+    <tr>
+      <td>Walmart Sneakers</td>
+      <td>10.5</td>
+      <td>4</td>
+      <td>-0.6</td>
+      <td>15.24</td>
+    </tr>
+    <tr>
+      <td>Gucci Sneakers</td>
+      <td>650</td>
+      <td>12</td>
+      <td>0.9</td>
+      <td>3.51</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>In this scenario, the Nike’s are the best value. They solve the problem for the lowest cost per month and effectiveness.</p>
+
+        </div>
+
+        <div class='c-tags'>
+          
+        </div>
+
+      </article>
+
+    </div>
+  </div>
+</div>
 
       <footer class="c-footer">
 	<div class="o-grid">

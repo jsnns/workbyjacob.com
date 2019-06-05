@@ -2,6 +2,23 @@
   Components > Post
 \*------------------------------------*/
 
+.post-image {
+	margin: 0 auto;
+}
+
+table {
+	text-align: left;
+}
+
+th,
+td {
+	padding-right: 20px;
+}
+
+td {
+	font-family: monospace;
+}
+
 .c-post {
 	margin: 0 auto;
 	max-width: 740px;
