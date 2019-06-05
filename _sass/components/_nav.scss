@@ -3,25 +3,29 @@
 \*------------------------------------*/
 
 .c-nav {
-  &__item {
-    font-size: $font-size-medium;
-  }
+	&__item {
+		font-size: $font-size-medium;
+	}
 
-  &__link {
-    display: block;
-    transition: $global-transition;
+	&__header {
+		font-size: $font-size-medium;
+	}
 
-    &--current {
-      color: $color-brand;
+	&__link {
+		display: block;
+		transition: $global-transition;
 
-      .home-template &:not(:hover) {
-        color: $color-link;
-      }
-    }
+		&--current {
+			color: $color-brand;
 
-    @include attention() {
-      color: $color-brand;
-      text-decoration: none;
-    }
-  }
+			.home-template &:not(:hover) {
+				color: $color-link;
+			}
+		}
+
+		@include attention() {
+			color: $color-brand;
+			text-decoration: none;
+		}
+	}
 }

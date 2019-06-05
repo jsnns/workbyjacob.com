@@ -6,11 +6,29 @@
 	>
 </li>
 
-{% for page in site.pages %} {% unless page.name == '404.md' %} {% if page.title
-%}
+{% for page in site.pages %} {% unless page.name == '404.md' %} {% unless
+page.project == true %} {% if page.title %}
 <li class="c-nav__item" role="presentation">
 	<a class="c-nav__link" href="{{ page.url | prepend: site.baseurl }}">{{
 		page.title
 	}}</a>
 </li>
-{% endif %} {% endunless %} {% endfor %}
+{% endif %} {% endunless %} {% endunless %} {% endfor %}
+
+<hr style="margin-bottom: 0.5em" />
+
+<li class="c-nav__header" role="presentation">
+	Projects
+</li>
+
+{% for page in site.pages %} {% unless page.name == '404.md' %} {% if
+page.project == true %} {% if page.title %}
+<li class="c-nav__item" role="presentation">
+	<a
+		class="c-nav__link"
+		style="padding-left: 1em"
+		href="{{ page.url | prepend: site.baseurl }}"
+		>{{ page.title }}</a
+	>
+</li>
+{% endif %} {% endif %} {% endunless %} {% endfor %}
