@@ -1,3 +1,1 @@
-bundle exec jekyll build
-rm -r docs
-mv _site docs
+echo "build handeled by github now"
