@@ -2,8 +2,8 @@
 layout: post
 title: "Determining a Product's Value"
 tags:
-	 - finance
-	 - technology
+   - finance
+   - technology
 ---
 
 I'm on a journey to crack the nut of personal finance. Personal finance isn't just for aspiring millionaires, it's for anyone who wants to build their life on a solid foundation. It's amazing to realize how understanding your money will give you the freedom you've always wanted.
