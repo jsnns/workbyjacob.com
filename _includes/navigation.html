@@ -1,34 +1,37 @@
 <li class="c-nav__item" role="presentation">
-	<a
-		class="c-nav__link"
-		href="https://github.com/jsnns/resume/blob/master/jsnns_resume.pdf"
-		>Resume</a
-	>
+  <a class="c-nav__link" href="https://github.com/jsnns/resume/blob/master/jsnns_resume.pdf">Resume</a>
 </li>
 
-{% for page in site.pages %} {% unless page.name == '404.md' %} {% unless
-page.project == true %} {% if page.title %}
-<li class="c-nav__item" role="presentation">
-	<a class="c-nav__link" href="{{ page.url | prepend: site.baseurl }}">{{
+{% for page in site.pages %}
+  {% unless page.name == '404.md' %}
+    {% unless
+page.project == true %}
+      {% if page.title %}
+        <li class="c-nav__item" role="presentation">
+          <a class="c-nav__link" href="{{ page.url | prepend: site.baseurl }}">{{
 		page.title
 	}}</a>
-</li>
-{% endif %} {% endunless %} {% endunless %} {% endfor %}
+        </li>
+      {% endif %}
+    {% endunless %}
+  {% endunless %}
+{% endfor %}
 
-<hr style="margin-bottom: 0.5em" />
+<hr style="margin-bottom: 0.1em"/>
 
-<li class="c-nav__header" role="presentation">
-	Projects
+<li class="c-nav__header" role="presentation" style="opacity: 0.5 !important;">
+  Projects
 </li>
 
-{% for page in site.pages %} {% unless page.name == '404.md' %} {% if
-page.project == true %} {% if page.title %}
-<li class="c-nav__item" role="presentation">
-	<a
-		class="c-nav__link"
-		style="padding-left: 1em"
-		href="{{ page.url | prepend: site.baseurl }}"
-		>{{ page.title }}</a
-	>
-</li>
-{% endif %} {% endif %} {% endunless %} {% endfor %}
+{% for page in site.pages %}
+  {% unless page.name == '404.md' %}
+    {% if
+page.project == true %}
+      {% if page.title %}
+        <li class="c-nav__item" role="presentation">
+          <a class="c-nav__link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+        </li>
+      {% endif %}
+    {% endif %}
+  {% endunless %}
+{% endfor %}
