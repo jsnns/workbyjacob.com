@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Building a blog with Jekyll and Netlify
-date: 06/25/2019 10:20 AM
+date: 2019-06-25T00:00:00-04:00
 tags:
   - technology
 image: null
@@ -20,6 +20,7 @@ If you've ever managed your own servers, then the toils of patching and maintena
 The combination of Netlify, Netlify CMS, and Jekyll have given me the freedom to run a personal site and focus on the content.
 
 [If you want a great tutorial this one will have you live in just a few moments.](https://github.com/netlify-templates/jekyll-netlify-cms)
+
 
 
 
