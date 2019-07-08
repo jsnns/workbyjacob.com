@@ -7,7 +7,7 @@
 
 # Site settings
 title: "Jacob Sansbury: Software Engineer"
-email: "jacob@workbyjacob.com"
+email: "jacob(@)workbyjacob(.)com"
 description: "A Software Engineer's musing about technology and the way it shapes our lives."
 baseurl: "" # The subpath of your site, e.g. /blog
 url: "https://workbyjacob.com" # The base hostname & protocol for your site
@@ -25,6 +25,7 @@ plugins:
    - jekyll-paginate
    - jekyll/tagging
    - jekyll-sitemap
+   - jekyll-minifier
 
 include:
    - _pages
