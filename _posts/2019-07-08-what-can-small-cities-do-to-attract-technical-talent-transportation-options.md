@@ -7,7 +7,7 @@ tags:
   - talent
 image: /images/hand-holding-onto-subway-train-handle_33874-15.jpg
 ---
-Smaller towns tend to have a hard time attracting and retaining technical talent. The lure of large cities can make it harder for young companies to attract talent in smaller towns. For one, the options provided by large cities are numerous from events to mass transit options metropolises offer a diverse set of lifestyle choices that are difficult for a small town to provide.
+The lure of large cities can make it harder for young companies in small towns to attract talent. For one, the options provided by large cities are numerous from events to mass transit options metropolises offer a diverse set of lifestyle choices that are difficult for a small town to provide.
 
 To make yourself attractive to city-dwelling top talent, you have to create a flexible and exciting atmosphere that they have come to expect. City dwellers enjoy more diverse lifestyle choices than their small town counterparts; transportation choices are commonly one of the top amenities.
 
@@ -29,5 +29,6 @@ In the era of the big city, it's not impossible for businesses in small towns to
 1) Millennials Leading a Decline in Car Ownership in Some U.S. Cities. (2017, May 13). Retrieved July 8, 2019, from https://www.planetizen.com/node/92737/millennials-leading-decline-car-ownership-some-us-cities
 
 2) U.S. Census Bureau. (2014, September 25). Biking to Work Increases 60 Percent Over Last Decade. Retrieved July 8, 2019, from https://www.census.gov/newsroom/press-releases/2014/cb14-86.html
+
 
 
