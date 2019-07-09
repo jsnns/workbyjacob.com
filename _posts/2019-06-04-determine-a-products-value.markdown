@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Determining a Product's Value"
-date: date: 2019-06-04T04:00:00.000Z
+date: 2019-06-04T04:00:00.000Z
 tags:
    - finance
 	 - technology
