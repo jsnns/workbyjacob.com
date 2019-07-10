@@ -3,12 +3,12 @@
 \*------------------------------------*/
 
 .c-content {
-  a:not(.c-btn) {
-    text-decoration: underline;
-    text-decoration-skip: ink;
+	a:not(.c-btn) {
+		text-decoration: underline;
+		text-decoration-skip: ink;
 
-    @include attention() {
-      color: $color-brand;
-    }
-  }
+		@include attention() {
+			color: $color-brand;
+		}
+	}
 }

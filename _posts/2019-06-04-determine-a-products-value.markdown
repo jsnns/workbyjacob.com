@@ -6,9 +6,10 @@ tags:
    - finance
    - technology
 image: null
+dropcap: I
 ---
 
-I'm on a journey to crack the nut of personal finance. Personal finance isn't just for aspiring millionaires; it's for anyone who wants to build their life on a solid foundation. It's incredible to realize how understanding your money will give you the freedom you've always wanted.
+'m on a journey to crack the nut of personal finance. Personal finance isn't just for aspiring millionaires; it's for anyone who wants to build their life on a solid foundation. It's incredible to realize how understanding your money will give you the freedom you've always wanted.
 
 Over the course of my journey, I've stubbed my toe many times. I've made tons of mistakes and reflected on my mishaps time and time again. Through my toils, I've come to understand that personal finance requires you hear your logic over your emotions.
 

@@ -16,12 +16,21 @@ layout: default
 
         <h1 class='c-post__title u-text-center'>{{ page.title }}</h1>
 
-        <time class='c-post__date' datetime='{{ page.date | date_to_xmlschema }}' itemprop='datePublished'>{{ page.date | date: '%d %b %Y' }}</time>
+        <time class='c-post__date' datetime='{{ page.date | date_to_xmlschema }}' itemprop='datePublished'>
+					{{ page.date | date: '%d %b %Y' }}  by Jacob Sansbury
+				</time>
 
         <div class='c-content' itemprop='articleBody'>
           {% include page-image.html %}
 
-          {{ content }}
+					<span>
+						<span class="drop-cap">
+							{{ page.dropcap }}
+						</span>
+						<div display="inline">
+							{{ content }}
+						</div>
+					</span>
         </div>
 
         <div class='c-tags'>
