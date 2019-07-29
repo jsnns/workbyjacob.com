@@ -7,6 +7,7 @@ tags:
   - technology
   - aerospace
 image: null
+project: true
 ---
 A Cabin Management System or CMS is a set of hardware and software devices that allow passengers of Aircraft to control the environment, including A/V equipment, lighting, and climate. I designed and built the software and hardware integration for Switch CMS with an independent team, including another hardware engineer and me.
 
@@ -14,7 +15,7 @@ Switch is a replacement for the expensive CMS solutions offered by large organiz
 
 Switch CMS can control many devices, including...
 
-* **Lighting\*\*, with everyday operations like *all* lights on or off. Switch supports multiple lights in discrete regions such as _Galley_, _Forward_, and _Aft_
+* **Lighting**, with everyday operations like *all* lights on or off. Switch supports multiple lights in discrete regions such as _Galley_, _Forward_, and _Aft_
 
 * **Climate**, with support for multiple zones
 
