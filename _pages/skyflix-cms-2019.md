@@ -22,6 +22,7 @@ Switch CMS can control many devices, including...
 
 ## Technology
 
-![TV Controls](/images/pages/skyflix-switch-tv)
+![TV Controls](/images/pages/skyflix-switch-tv.png)
 
 Given the importance of reusing existing devices, I built Switch CMS to control existing Aircraft components through Serial and IR connections. Given the constraints of the environment in which this product operates, I reinforced the joints between hardware and software with redundant fail-over systems.
+
