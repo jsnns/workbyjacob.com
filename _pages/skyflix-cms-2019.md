@@ -1,5 +1,6 @@
 ---
 layout: project
+project: true
 title: Skyflix CMS
 tagline: Aircraft cabin management simplified
 date: 2019-07-29T20:23:01.590Z
@@ -7,7 +8,6 @@ tags:
   - technology
   - aerospace
 image: null
-project: true
 ---
 A Cabin Management System or CMS is a set of hardware and software devices that allow passengers of Aircraft to control the environment, including A/V equipment, lighting, and climate. I designed and built the software and hardware integration for Switch CMS with an independent team, including another hardware engineer and me.
 
@@ -23,7 +23,7 @@ Switch CMS can control many devices, including...
 
 ## Technology
 
-![TV Controls](/images/pages/skyflix-switch-tv.png)
-
 Given the importance of reusing existing devices, I built Switch CMS to control existing Aircraft components through Serial and IR connections. Given the constraints of the environment in which this product operates, I reinforced the joints between hardware and software with redundant fail-over systems.
 
+![TV Controls](/images/pages/skyflix-switch-tv.png)
+![TV Controls](/images/pages/skyflix-switch-lights.png)
